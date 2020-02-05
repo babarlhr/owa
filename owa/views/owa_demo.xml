@@ -15,7 +15,7 @@
                 <field name="date"/>
                 <field name="datetime"/>
                 <field name="binary"/>
-                <field name="image"/>
+                <field name="image" widget="image"/>
                 <field name="selection"/>
                 <field name="reference"/>
                 <field name="many2one"/>
@@ -69,7 +69,7 @@
                                     <field name="date"/>
                                     <field name="datetime"/>
                                     <field name="binary"/>
-                                    <field name="image"/>
+                                    <field name="image" widget="binary"/>
                                     <field name="selection"/>
                                     <field name="reference"/>
                                     <field name="many2one"/>
