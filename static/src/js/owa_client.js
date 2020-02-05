@@ -1,11 +1,11 @@
-let odoo:any;
-let $:any;
-let owa_control_panel:any;
+var odoo;
+var $;
+var owa_control_panel;
 odoo.define('owa.client', function (require) {
-    let web_UserMenu = require("web.UserMenu");
+    var web_UserMenu = require("web.UserMenu");
     web_UserMenu.include({
         _onMenuOwaPannel: function () {
             owa_control_panel.show_owa_pannel();
-        },
-    })
+        }
+    });
 });
