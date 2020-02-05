@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <menuitem
+            name="OWA DEMO"
+            sequence="1"
+            id="owa.root_menu"
+            groups="base.group_erp_manager"
+        />
+        <menuitem
+            name="DEMO"
+            sequence="1"
+            id="owa.owa_demo"
+            action="owa.act_owa_demo_1"
+            parent="owa.root_menu"/>
+    </data>
+</odoo>

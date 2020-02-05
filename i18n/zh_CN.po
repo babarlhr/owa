@@ -1,0 +1,804 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* owa
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e-20191119\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-02-05 11:44+0000\n"
+"PO-Revision-Date: 2020-02-05 20:16+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 2.2.3\n"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__message_needaction
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__message_needaction
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__message_needaction
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag__message_needaction
+msgid "Action Needed"
+msgstr "需要采取行动"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__activity_ids
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__activity_ids
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__activity_ids
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag__activity_ids
+msgid "Activities"
+msgstr "活动"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__activity_exception_decoration
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__activity_exception_decoration
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__activity_exception_decoration
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "活动例外勋章"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__activity_state
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__activity_state
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__activity_state
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag__activity_state
+msgid "Activity State"
+msgstr "活动状态"
+
+#. module: owa
+#: model_terms:ir.ui.view,arch_db:owa.owa_demo_view_form
+#: model_terms:ir.ui.view,arch_db:owa.owa_demo_view_form_approve
+msgid "Approve"
+msgstr "审核"
+
+#. module: owa
+#: model_terms:ir.ui.view,arch_db:owa.owa_demo_view_form
+#: model_terms:ir.ui.view,arch_db:owa.owa_demo_view_form_approve
+msgid "Approve Note"
+msgstr "审核意见"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#: model:ir.model.fields.selection,name:owa.selection__owa_demo__state__approved
+#, python-format
+msgid "Approved"
+msgstr "审核通过"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#: model:ir.model.fields.selection,name:owa.selection__owa_demo__state__approving
+#, python-format
+msgid "Approving"
+msgstr "审核中"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__message_attachment_count
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__message_attachment_count
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__message_attachment_count
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag__message_attachment_count
+msgid "Attachment Count"
+msgstr "附件数量"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#: code:addons/owa/models/owa_demo_line.py:0
+#: code:addons/owa/models/owa_demo_line_line.py:0
+#: model:ir.model.fields,field_description:owa.field_owa_demo__binary
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__binary
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__binary
+#, python-format
+msgid "Binary"
+msgstr "二进制"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#: code:addons/owa/models/owa_demo_line.py:0
+#: code:addons/owa/models/owa_demo_line_line.py:0
+#: model:ir.model.fields,field_description:owa.field_owa_demo__boolean
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__boolean
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__boolean
+#, python-format
+msgid "Boolean"
+msgstr "布尔"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#: model_terms:ir.ui.view,arch_db:owa.owa_demo_view_form
+#, python-format
+msgid "Cancel"
+msgstr "取消"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#: model:ir.model.fields,field_description:owa.field_owa_demo__char
+#, python-format
+msgid "Char"
+msgstr "字符"
+
+#. module: owa
+#: model_terms:ir.ui.view,arch_db:owa.owa_demo_view_form_approve
+msgid "Close"
+msgstr "关闭"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__create_uid
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__create_uid
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__create_uid
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag__create_uid
+msgid "Created by"
+msgstr "创建者"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__create_date
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__create_date
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__create_date
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#: code:addons/owa/models/owa_demo_line.py:0
+#: code:addons/owa/models/owa_demo_line_line.py:0
+#: model:ir.model.fields,field_description:owa.field_owa_demo__company_currency
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__company_currency
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__company_currency
+#, python-format
+msgid "Currency"
+msgstr "币种"
+
+#. module: owa
+#: model:ir.ui.menu,name:owa.owa_demo
+msgid "DEMO"
+msgstr "演示"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#: code:addons/owa/models/owa_demo_line.py:0
+#: code:addons/owa/models/owa_demo_line_line.py:0
+#, python-format
+msgid "Date"
+msgstr "日期"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#: code:addons/owa/models/owa_demo_line.py:0
+#: code:addons/owa/models/owa_demo_line_line.py:0
+#: model:ir.model.fields,field_description:owa.field_owa_demo__datetime
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__datetime
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__datetime
+#, python-format
+msgid "Datetime"
+msgstr "时间"
+
+#. module: owa
+#: model_terms:ir.ui.view,arch_db:owa.owa_demo_view_form
+msgid "Demo lines"
+msgstr "明细行"
+
+#. module: owa
+#: model_terms:ir.ui.view,arch_db:owa.owa_demo_view_form_approve
+msgid "Disapprove"
+msgstr "审核不通过"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#: model:ir.model.fields.selection,name:owa.selection__owa_demo__state__disapproved
+#, python-format
+msgid "Disapproved"
+msgstr "审核不通过"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__display_name
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__display_name
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__display_name
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#: model:ir.model.fields.selection,name:owa.selection__owa_demo__state__draft
+#, python-format
+msgid "Draft"
+msgstr "草稿"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#: code:addons/owa/models/owa_demo_line.py:0
+#: code:addons/owa/models/owa_demo_line_line.py:0
+#: model:ir.model.fields,field_description:owa.field_owa_demo__float
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__float
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__float
+#, python-format
+msgid "Float"
+msgstr "浮点数"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__message_follower_ids
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__message_follower_ids
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__message_follower_ids
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag__message_follower_ids
+msgid "Followers"
+msgstr "关注者"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__message_channel_ids
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__message_channel_ids
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__message_channel_ids
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "关注者(渠道)"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__message_partner_ids
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__message_partner_ids
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__message_partner_ids
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "关注者(业务伙伴)"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__html
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__html
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__html
+msgid "HTML"
+msgstr "HTML"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#: code:addons/owa/models/owa_demo_line.py:0
+#: code:addons/owa/models/owa_demo_line_line.py:0
+#: model_terms:ir.ui.view,arch_db:owa.owa_demo_view_form
+#, python-format
+msgid "Html"
+msgstr "Html"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__id
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__id
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__id
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag__id
+msgid "ID"
+msgstr "ID"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__activity_exception_icon
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__activity_exception_icon
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__activity_exception_icon
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag__activity_exception_icon
+msgid "Icon"
+msgstr "图标"
+
+#. module: owa
+#: model:ir.model.fields,help:owa.field_owa_demo__activity_exception_icon
+#: model:ir.model.fields,help:owa.field_owa_demo_line__activity_exception_icon
+#: model:ir.model.fields,help:owa.field_owa_demo_line_line__activity_exception_icon
+#: model:ir.model.fields,help:owa.field_owa_demo_tag__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "表示一个例外活动的图标。"
+
+#. module: owa
+#: model:ir.model.fields,help:owa.field_owa_demo__message_needaction
+#: model:ir.model.fields,help:owa.field_owa_demo__message_unread
+#: model:ir.model.fields,help:owa.field_owa_demo_line__message_needaction
+#: model:ir.model.fields,help:owa.field_owa_demo_line__message_unread
+#: model:ir.model.fields,help:owa.field_owa_demo_line_line__message_needaction
+#: model:ir.model.fields,help:owa.field_owa_demo_line_line__message_unread
+#: model:ir.model.fields,help:owa.field_owa_demo_tag__message_needaction
+#: model:ir.model.fields,help:owa.field_owa_demo_tag__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "确认后, 出现提示消息."
+
+#. module: owa
+#: model:ir.model.fields,help:owa.field_owa_demo__message_has_error
+#: model:ir.model.fields,help:owa.field_owa_demo_line__message_has_error
+#: model:ir.model.fields,help:owa.field_owa_demo_line_line__message_has_error
+#: model:ir.model.fields,help:owa.field_owa_demo_tag__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "如果勾选此项， 某些消息将会产生传递错误。"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#: code:addons/owa/models/owa_demo_line.py:0
+#: code:addons/owa/models/owa_demo_line_line.py:0
+#, python-format
+msgid "Image"
+msgstr "图像"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#: code:addons/owa/models/owa_demo_line.py:0
+#: code:addons/owa/models/owa_demo_line_line.py:0
+#, python-format
+msgid "Integer"
+msgstr "整型"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__message_is_follower
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__message_is_follower
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__message_is_follower
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag__message_is_follower
+msgid "Is Follower"
+msgstr "关注者"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo____last_update
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line____last_update
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line____last_update
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag____last_update
+msgid "Last Modified on"
+msgstr "最后更改日"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__write_uid
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__write_uid
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__write_uid
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__write_date
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__write_date
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__write_date
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag__write_date
+msgid "Last Updated on"
+msgstr "更新时间"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__message_main_attachment_id
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__message_main_attachment_id
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__message_main_attachment_id
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "附件"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#: code:addons/owa/models/owa_demo_line.py:0
+#: code:addons/owa/models/owa_demo_line_line.py:0
+#, python-format
+msgid "Many2many"
+msgstr "多对多"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#: code:addons/owa/models/owa_demo_line.py:0
+#: code:addons/owa/models/owa_demo_line_line.py:0
+#, python-format
+msgid "Many2one"
+msgstr "多对一"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__message_has_error
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__message_has_error
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__message_has_error
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag__message_has_error
+msgid "Message Delivery error"
+msgstr "消息传递错误"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__message_ids
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__message_ids
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__message_ids
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag__message_ids
+msgid "Messages"
+msgstr "消息"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#: code:addons/owa/models/owa_demo_line.py:0
+#: code:addons/owa/models/owa_demo_line_line.py:0
+#, python-format
+msgid "Monetary"
+msgstr "货币"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#: code:addons/owa/models/owa_demo_line.py:0
+#: code:addons/owa/models/owa_demo_line_line.py:0
+#: code:addons/owa/models/owa_demo_tag.py:0
+#, python-format
+msgid "Name"
+msgstr "名称"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__activity_date_deadline
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__activity_date_deadline
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__activity_date_deadline
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "下一活动截止日期"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__activity_summary
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__activity_summary
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__activity_summary
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag__activity_summary
+msgid "Next Activity Summary"
+msgstr "下一活动摘要"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__activity_type_id
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__activity_type_id
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__activity_type_id
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag__activity_type_id
+msgid "Next Activity Type"
+msgstr "下一活动类型"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__message_needaction_counter
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__message_needaction_counter
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__message_needaction_counter
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag__message_needaction_counter
+msgid "Number of Actions"
+msgstr "操作次数"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__message_has_error_counter
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__message_has_error_counter
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__message_has_error_counter
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag__message_has_error_counter
+msgid "Number of errors"
+msgstr "错误数"
+
+#. module: owa
+#: model:ir.model.fields,help:owa.field_owa_demo__message_needaction_counter
+#: model:ir.model.fields,help:owa.field_owa_demo_line__message_needaction_counter
+#: model:ir.model.fields,help:owa.field_owa_demo_line_line__message_needaction_counter
+#: model:ir.model.fields,help:owa.field_owa_demo_tag__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "需要操作消息数量"
+
+#. module: owa
+#: model:ir.model.fields,help:owa.field_owa_demo__message_has_error_counter
+#: model:ir.model.fields,help:owa.field_owa_demo_line__message_has_error_counter
+#: model:ir.model.fields,help:owa.field_owa_demo_line_line__message_has_error_counter
+#: model:ir.model.fields,help:owa.field_owa_demo_tag__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "递送错误消息数量"
+
+#. module: owa
+#: model:ir.model.fields,help:owa.field_owa_demo__message_unread_counter
+#: model:ir.model.fields,help:owa.field_owa_demo_line__message_unread_counter
+#: model:ir.model.fields,help:owa.field_owa_demo_line_line__message_unread_counter
+#: model:ir.model.fields,help:owa.field_owa_demo_tag__message_unread_counter
+msgid "Number of unread messages"
+msgstr "未读消息数量"
+
+#. module: owa
+#: model:ir.actions.act_window,name:owa.act_owa_demo_1
+#: model:ir.actions.report,name:owa.action_report_owa_demo
+#: model:ir.ui.menu,name:owa.root_menu
+#: model_terms:ir.ui.view,arch_db:owa.owa_demo_view_form
+#: model_terms:ir.ui.view,arch_db:owa.owa_demo_view_tree
+msgid "OWA DEMO"
+msgstr "OWA演示"
+
+#. module: owa
+#: model:ir.actions.act_window,name:owa.act_owa_demo_approve
+#: model_terms:ir.ui.view,arch_db:owa.owa_demo_view_form_approve
+msgid "OWA DEMO APPROVE"
+msgstr "OWA审核演示"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#: code:addons/owa/models/owa_demo_line.py:0
+#, python-format
+msgid "One2many"
+msgstr "一对多"
+
+#. module: owa
+#: model:ir.actions.server,name:owa.reset_to_draft
+msgid "RESET TO DRAFT"
+msgstr "重置为草稿"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#: code:addons/owa/models/owa_demo_line.py:0
+#: code:addons/owa/models/owa_demo_line_line.py:0
+#: model:ir.model.fields,field_description:owa.field_owa_demo__reference
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__reference
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__reference
+#, python-format
+msgid "Reference"
+msgstr "引用"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__activity_user_id
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__activity_user_id
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__activity_user_id
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag__activity_user_id
+msgid "Responsible User"
+msgstr "责任用户"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#: code:addons/owa/models/owa_demo_line.py:0
+#: code:addons/owa/models/owa_demo_line_line.py:0
+#, python-format
+msgid "Selection"
+msgstr "选项"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#: code:addons/owa/models/owa_demo_line.py:0
+#: code:addons/owa/models/owa_demo_line_line.py:0
+#: model:ir.model.fields.selection,name:owa.selection__owa_demo__selection__selection_test_1
+#: model:ir.model.fields.selection,name:owa.selection__owa_demo_line__selection__selection_test_1
+#: model:ir.model.fields.selection,name:owa.selection__owa_demo_line_line__selection__selection_test_1
+#, python-format
+msgid "Selection Test 1"
+msgstr "测试选项1"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#: code:addons/owa/models/owa_demo_line.py:0
+#: code:addons/owa/models/owa_demo_line_line.py:0
+#: model:ir.model.fields.selection,name:owa.selection__owa_demo__selection__selection_test_2
+#: model:ir.model.fields.selection,name:owa.selection__owa_demo_line__selection__selection_test_2
+#: model:ir.model.fields.selection,name:owa.selection__owa_demo_line_line__selection__selection_test_2
+#, python-format
+msgid "Selection Test 2"
+msgstr "测试选项2"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#: code:addons/owa/models/owa_demo_line.py:0
+#: code:addons/owa/models/owa_demo_line_line.py:0
+#: model:ir.model.fields.selection,name:owa.selection__owa_demo__selection__selection_test_3
+#: model:ir.model.fields.selection,name:owa.selection__owa_demo_line__selection__selection_test_3
+#: model:ir.model.fields.selection,name:owa.selection__owa_demo_line_line__selection__selection_test_3
+#, python-format
+msgid "Selection Test 3"
+msgstr "测试选项3"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#: model:ir.model.fields,field_description:owa.field_owa_demo__state
+#, python-format
+msgid "State"
+msgstr "状态"
+
+#. module: owa
+#: model:ir.model.fields,help:owa.field_owa_demo__activity_state
+#: model:ir.model.fields,help:owa.field_owa_demo_line__activity_state
+#: model:ir.model.fields,help:owa.field_owa_demo_line_line__activity_state
+#: model:ir.model.fields,help:owa.field_owa_demo_tag__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"基于活动的状态 \n"
+" 逾期：已经超过截止日期 \n"
+" 现今：活动日期是当天 \n"
+" 计划：未来活动。"
+
+#. module: owa
+#: model_terms:ir.ui.view,arch_db:owa.owa_demo_view_form
+msgid "Submit"
+msgstr "提交审核"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#: code:addons/owa/models/owa_demo_line.py:0
+#: code:addons/owa/models/owa_demo_line_line.py:0
+#: model_terms:ir.ui.view,arch_db:owa.owa_demo_view_form
+#, python-format
+msgid "Text"
+msgstr "长文本"
+
+#. module: owa
+#: model_terms:ir.ui.view,arch_db:owa.report_owa_demo
+msgid "This is a sample of owa demo."
+msgstr "打印demo"
+
+#. module: owa
+#: model:ir.model.fields,help:owa.field_owa_demo__activity_exception_decoration
+#: model:ir.model.fields,help:owa.field_owa_demo_line__activity_exception_decoration
+#: model:ir.model.fields,help:owa.field_owa_demo_line_line__activity_exception_decoration
+#: model:ir.model.fields,help:owa.field_owa_demo_tag__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "记录的例外活动类型。"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__message_unread
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__message_unread
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__message_unread
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag__message_unread
+msgid "Unread Messages"
+msgstr "未读消息"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__message_unread_counter
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__message_unread_counter
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__message_unread_counter
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "未读消息计数器"
+
+#. module: owa
+#. openerp-web
+#: code:addons/owa/static/src/xml/menu.xml:0
+#, python-format
+msgid "Web Automation"
+msgstr "自动化测试"
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__website_message_ids
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__website_message_ids
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__website_message_ids
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag__website_message_ids
+msgid "Website Messages"
+msgstr "网站消息"
+
+#. module: owa
+#: model:ir.model.fields,help:owa.field_owa_demo__website_message_ids
+#: model:ir.model.fields,help:owa.field_owa_demo_line__website_message_ids
+#: model:ir.model.fields,help:owa.field_owa_demo_line_line__website_message_ids
+#: model:ir.model.fields,help:owa.field_owa_demo_tag__website_message_ids
+msgid "Website communication history"
+msgstr "网上沟通记录"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#, python-format
+msgid "You can not approve this record!"
+msgstr "您不能对该记录执行审核操作！"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#, python-format
+msgid "You can not cancel this record!"
+msgstr "您不能对该记录执行取消操作！"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#, python-format
+msgid "You can not disapprove this record!"
+msgstr "您不能对该记录执行审核不通过的操作！"
+
+#. module: owa
+#: code:addons/owa/models/owa_demo.py:0
+#, python-format
+msgid "You can not submit this record!"
+msgstr "您不能对该记录执行提交审核操作！"
+
+#. module: owa
+#: model:ir.model.fields.selection,name:owa.selection__owa_demo__reference__ir_actions_act_url
+#: model:ir.model.fields.selection,name:owa.selection__owa_demo_line__reference__ir_actions_act_url
+#: model:ir.model.fields.selection,name:owa.selection__owa_demo_line_line__reference__ir_actions_act_url
+msgid "ir.actions.act_url"
+msgstr "URL动作"
+
+#. module: owa
+#: model:ir.model.fields.selection,name:owa.selection__owa_demo__reference__ir_actions_act_window
+#: model:ir.model.fields.selection,name:owa.selection__owa_demo_line__reference__ir_actions_act_window
+#: model:ir.model.fields.selection,name:owa.selection__owa_demo_line_line__reference__ir_actions_act_window
+msgid "ir.actions.act_window"
+msgstr "窗口动作"
+
+#. module: owa
+#: model:ir.model.fields.selection,name:owa.selection__owa_demo__reference__ir_actions_client
+#: model:ir.model.fields.selection,name:owa.selection__owa_demo_line__reference__ir_actions_client
+#: model:ir.model.fields.selection,name:owa.selection__owa_demo_line_line__reference__ir_actions_client
+msgid "ir.actions.client"
+msgstr "客户端动作"
+
+#. module: owa
+#: model:ir.model.fields.selection,name:owa.selection__owa_demo__reference__ir_actions_report
+#: model:ir.model.fields.selection,name:owa.selection__owa_demo_line__reference__ir_actions_report
+#: model:ir.model.fields.selection,name:owa.selection__owa_demo_line_line__reference__ir_actions_report
+msgid "ir.actions.report"
+msgstr "报告"
+
+#. module: owa
+#: model:ir.model.fields.selection,name:owa.selection__owa_demo__reference__ir_actions_server
+#: model:ir.model.fields.selection,name:owa.selection__owa_demo_line__reference__ir_actions_server
+#: model:ir.model.fields.selection,name:owa.selection__owa_demo_line_line__reference__ir_actions_server
+msgid "ir.actions.server"
+msgstr "服务器动作"
+
+#. module: owa
+#: model:ir.model,name:owa.model_owa_demo
+msgid "owa.demo"
+msgstr ""
+
+#. module: owa
+#: model:ir.model,name:owa.model_owa_demo_line
+msgid "owa.demo.line"
+msgstr ""
+
+#. module: owa
+#: model:ir.model,name:owa.model_owa_demo_line_line
+msgid "owa.demo.line.line"
+msgstr ""
+
+#. module: owa
+#: model:ir.model,name:owa.model_owa_demo_tag
+msgid "owa.demo.tag"
+msgstr ""
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__one2many
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__one2many
+msgid "一对多"
+msgstr ""
+
+#. module: owa
+#: model:ir.model.fields.selection,name:owa.selection__owa_demo__state__cancel
+msgid "取消"
+msgstr ""
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__name
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__name
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__name
+#: model:ir.model.fields,field_description:owa.field_owa_demo_tag__name
+msgid "名称"
+msgstr ""
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__image
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__image
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__image
+msgid "图像"
+msgstr ""
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__many2one
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__demo_id
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__many2one
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__demo_line_id
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__many2one
+msgid "多对一"
+msgstr ""
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__many2many
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__many2many
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__many2many
+msgid "多对多"
+msgstr ""
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__integer
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__integer
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__integer
+msgid "整数"
+msgstr ""
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__text
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__text
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__text
+msgid "文本"
+msgstr ""
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__date
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__date
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__date
+msgid "日期"
+msgstr ""
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__monetary
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__monetary
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__monetary
+msgid "货币"
+msgstr ""
+
+#. module: owa
+#: model:ir.model.fields,field_description:owa.field_owa_demo__selection
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line__selection
+#: model:ir.model.fields,field_description:owa.field_owa_demo_line_line__selection
+msgid "选项"
+msgstr ""

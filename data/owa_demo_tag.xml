@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<odoo noupdate="1">
+    <record model="owa.demo.tag" id="owa_demo_tag_1">
+        <field name="name">tag_1</field>
+    </record>
+
+    <record model="owa.demo.tag" id="owa_demo_tag_2">
+        <field name="name">tag_2</field>
+    </record>
+
+    <record model="owa.demo.tag" id="owa_demo_tag_3">
+        <field name="name">tag_3</field>
+    </record>
+
+    <record model="owa.demo.tag" id="owa_demo_tag_4">
+        <field name="name">tag_4</field>
+    </record>
+
+    <record model="owa.demo.tag" id="owa_demo_tag_5">
+        <field name="name">tag_5</field>
+    </record>
+
+    <record model="owa.demo.tag" id="owa_demo_tag_6">
+        <field name="name">tag_6</field>
+    </record>
+
+    <record model="owa.demo.tag" id="owa_demo_tag_7">
+        <field name="name">tag_7</field>
+    </record>
+
+    <record model="owa.demo.tag" id="owa_demo_tag_8">
+        <field name="name">tag_8</field>
+    </record>
+
+    <record model="owa.demo.tag" id="owa_demo_tag_9">
+        <field name="name">tag_9</field>
+    </record>
+
+    <record model="owa.demo.tag" id="owa_demo_tag_10">
+        <field name="name">tag_10</field>
+    </record>
+
+</odoo>

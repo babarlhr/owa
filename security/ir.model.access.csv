@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_owa_demo,owa_client.owa_demo,model_owa_demo,base.group_erp_manager,1,1,1,1
+access_owa_demo_line,owa_client.owa_demo_line,model_owa_demo_line,base.group_erp_manager,1,1,1,1
+access_owa_demo_line_line,owa_client.owa_demo_line_line,model_owa_demo_line_line,base.group_erp_manager,1,1,1,1
+access_owa_demo_tag,owa_client.owa_demo_tag,model_owa_demo_tag,base.group_erp_manager,1,1,1,1

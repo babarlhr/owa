@@ -1,0 +1,114 @@
+<odoo>
+  <data>
+    <record id="owa_demo_view_tree" model="ir.ui.view">
+        <field name="name">owa.demo.tree</field>
+        <field name="model">owa.demo</field>
+        <field name="arch" type="xml">
+            <tree string="OWA DEMO">
+                <field name="name"/>
+                <field name="boolean"/>
+                <field name="integer"/>
+                <field name="float"/>
+                <field name="monetary"/>
+                <field name="text"/>
+                <field name="html"/>
+                <field name="date"/>
+                <field name="datetime"/>
+                <field name="binary"/>
+                <field name="image"/>
+                <field name="selection"/>
+                <field name="reference"/>
+                <field name="many2one"/>
+                <field name="many2many"/>
+                <field name="state"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="owa_demo_view_form" model="ir.ui.view">
+        <field name="name">owa.demo.form</field>
+        <field name="model">owa.demo</field>
+        <field name="arch" type="xml">
+            <form string="OWA DEMO">
+                <header>
+                    <button string="Submit" type="object" name="submit" states="draft" class="oe_highlight"/>
+                    <button string="Approve" type="object" name="show_approve" states="approving" class="oe_highlight"/>
+                    <button string="Cancel" type="object" name="cancel" states="draft,disapproved"/>
+                    <field name="state" widget="statusbar" options="{'clickable': '1'}" statusbar_visible="draft,approving,approved"/>
+                </header>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="boolean"/>
+                            <field name="integer"/>
+                            <field name="float"/>
+                            <field name="monetary"/>
+                            <field name="date"/>
+                            <field name="datetime"/>
+                        </group>
+                        <group>
+                            <field name="binary"/>
+                            <field name="image" widget="image"/>
+                            <field name="selection"/>
+                            <field name="reference"/>
+                            <field name="many2one"/>
+                            <field name="many2many" widget="many2many_tags"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Demo lines">
+                            <field name="one2many">
+                                <tree editable="bottom">
+                                    <field name="name"/>
+                                    <field name="boolean"/>
+                                    <field name="integer"/>
+                                    <field name="float"/>
+                                    <field name="monetary"/>
+                                    <field name="text"/>
+                                    <field name="date"/>
+                                    <field name="datetime"/>
+                                    <field name="binary"/>
+                                    <field name="image"/>
+                                    <field name="selection"/>
+                                    <field name="reference"/>
+                                    <field name="many2one"/>
+                                    <field name="many2many" widget="many2many_tags"/>
+                                </tree>
+                            </field>
+                        </page>
+                        <page string="Text">
+                            <field name="text" placeholder="Approve Note"/>
+                        </page>
+                        <page string="Html">
+                            <field name="html"/>
+                        </page>
+                    </notebook>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" widget="mail_followers"/>
+                    <field name="message_ids" widget="mail_thread"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <record id="owa_demo_view_form_approve" model="ir.ui.view">
+        <field name="name">owa.demo.form.approve</field>
+        <field name="model">owa.demo</field>
+        <field name="arch" type="xml">
+            <form string="OWA DEMO APPROVE">
+                <group>
+                    <field name="text" placeholder="Approve Note"/>
+                    <field name="state" invisible="1"/>
+                </group>
+                <footer>
+                    <button string="Approve" type="object" name="approve" class="btn-primary oe_highlight" states="approving"/>
+                    <button string="Disapprove" type="object" name="disapprove" class="btn-secondary" states="approving"/>
+                    <button string="Close" special='cancel' class="btn-secondary"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+  </data>
+</odoo>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="report_owa_demo">
+        <t t-call="web.html_container">
+            <t t-set="o" t-value="res_company"/>
+            <t t-call="web.internal_layout">
+                <div class="page">
+                    <p>This is a sample of owa demo.</p>
+                </div>
+            </t>
+        </t>
+    </template>
+
+    <report id="action_report_owa_demo"
+        model="owa.demo"
+        name="owa.report_owa_demo"
+        file="owa.report_owa_demo"
+        string="OWA DEMO"
+        report_type="qweb-pdf"/>
+</odoo>
